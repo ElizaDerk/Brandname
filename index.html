@@ -1,291 +1,679 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>ToyStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brandname</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    
 </head>
 <body>
-    <header class="header">
-        <div class="header-bg">
-            <div class="header-center">
-                <div class="header-contact">
-                    <div class="header-left">    
-                        <span>Call Us: <a href="tel:+12139745898">+1 213 974-5898</a></span>
-                        <span>Email: <a href="mailto:toystore@template.com">toystore@template.com</a></span>
-                    </div>    
-                    <div class="header-icons">
-                        <ul class="social-list">
-                            <li><a href="#"><img src="./IMG/twitter.png"></a>  </li>             
-                            <li><a href="#"><img src="./IMG/facebook.png"></a></li>               
-                            <li><a href="#"><img src="./IMG/ins.png"></a></li>               
-                            <li><a href="#"><img src="./IMG/icon.png"></a></li>               
-                            <li><a href="#"><img src="./IMG/youtube.png"></a></li>   
-                        </ul>           
-                    </div>
+  <div class="container-flued">
+    <div class="header-dg">
+      <div class="container-md header-block">
+        <header>
+          <div class="row navi-wrapper">
+            <div class="col-3 logo-wrapper">
+              <a href="#" class="logo">Brandname</a>
+            </div>
+            <div class="col-9 d-flex align-items-center action-botton">
+              <div class="navigation">
+                <a href="#" class="nav-list-item">Home</a>
+                <a href="#" class="nav-list-item">Product</a>
+                <a href="#" class="nav-list-item">Pricing</a>
+                <a href="#" class="nav-list-item">Contact</a>
+              </div>
+              <div class="btn-wrapper">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="btn-join">JOIN US</a>
+              </div> 
+              <div class="mobile-action-botton ">
+                <div class="header-action d-flex">
+                  <a href="#" class="login">Login</a>
+                  <a href="#" class="btn-join">JOIN US</a>
+                </div>
+                  <button class="botton-burger d-flex justify-content-end">
+                    <i class="burger"></i>
+                  </button>
                 </div>
             </div>
-        </div>
-        <div class="header-snd-bg">
-            <div class="header-snd">
-                <div class="snd-right">
-                    <a href="index.html" class="logo">ToyStore</a>
-                    <nav class="navigation">
-                        <a href="#">Catalog</a>
-                        <a href="#">Delivery</a>
-                        <a href="#">About</a>
-                        <a href="#">Contacts</a>
-                    </nav>
-                </div>
-                <div class="snd-left">
-                    <span class="cart">Cart</span>
-                    <a href="#" class="cart-icon">
-                        <img src="./IMG/cart-icon.png">
-                    </a>
-                    <span class="cyrcle">0</span>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="main-container">
-        <div class="fst-block">
-            <div class="fst-content">
-                <span>Say Hello to ToyStore!</span>
-                <h1>Free Ecommerce Template for Webflow</h1>
-                <button>
-                    <a href="">Open Catalog</a>
-                </button>
-            </div>
-            <a href="#scroll-block" class="scroll">
-                <img src="./IMG/scroll.png">
-            </a>
-        </div>
-        <div class="main">
-            <div class="snd-block">
-                <div class="bear">
-                    <img class="pic-bear" src="./IMG/Bear.png">
-                    <div class="bear-text">
-                        <h2>Stuffed Animals</h2>
-                        <button>
-                            <a href="#">Shop now</a>
-                        </button>
-                    </div>
-                </div>
-                <div class="flower">
-                    <img class="pic-flower" src="./IMG/flower.png">
-                    <div class="fl-text">
-                        <h2>Wooden Toys</h2>
-                        <button>
-                            <a href="#">Shop now</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="trd-block">
-                <h3 id="scroll-block">Stuffed Animals</h3>
-                <div class="btn">
-                    <a href>See All Toys</a>
-                    <img class="arrow" src="./IMG/arrow-right.png">
-                </div>
-            </div>
-
-            <div class="lines">
-                <div class="fst-line"></div>
-                <div class="snd-line"></div>
-            </div>
-
-            <div class="toys-pic">
-                <div class="main-toy">
-                    <img src="./IMG/Bear.png">
-                    <div class="info">
-                        <h4 class="nametoy">Teddy Bear</h4>
-                        <span>$ 30.00 USD</span>
-                    </div>
-                    
-                </div>
-                <div class="main-toy-two">
-                    <img src="./IMG/UFO.png">
-                    <div class="info">
-                        <h4 class="nametoy">Mega Plush Toy</h4>
-                        <span>$ 38.00 USD</span>
-                    </div>
-                </div>
-                <div class="main-toy-two">
-                    <img src="./IMG/dog.png">
-                    <div class="info">
-                        <h4 class="nametoy">Cute Dog</h4>
-                        <span>$ 24.00 USD</span>
-                    </div>
-                        
-                </div>
-                <div class="main-toy-two">
-                    <img src="./IMG/cat.png">
-                    <div class="info">
-                        <h4 class="nametoy">Little Friend</h4>
-                        <span>$ 27.00 USD</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="frt-block">
-                <h3>Wooden Toys</h3>
-                <div class="btn">
-                    <a href>See All Toys</a>
-                    <img class="arrow" src="./IMG/arrow-right.png">
-                </div>
-            </div>
-
-            <div class="lines">
-                <div class="fst-line"></div>
-                <div class="snd-line"></div>
-            </div>
-
-            <div class="toys-pic">
-                <div class="main-toy">
-                    <img src="./IMG/flower.png">
-                    <div class="info">
-                        <h4 class="nametoy">Happy Flower</h4>
-                        <span>$ 38.00 USD</span>
-                    </div>
-                   
-                </div>
-                <div class="main-toy-two">
-                    <img src="./IMG/lift-m.png">
-                    <div class="info">
-                        <h4 class="nametoy">Lift Machine</h4>
-                        <span>$ 24.00 USD</span>
-                    </div>
-                </div>
-                <div class="main-toy-two">
-                    <img src="./IMG/camera.png">
-                    <div class="info">
-                        <h4 class="nametoy">Lift Machine</h4>
-                        <span>$ 32.00 USD</span>
-                    </div>
-                    
-                </div>
-                <div class="main-toy-two">
-                    <img src="./IMG/rabbit.png">
-                    <div class="info">
-                        <h4 class="nametoy">Little Rabbit</h4>
-                        <span>$ 16.00 USD</span>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="snd-content">
-            <div class="text-content">
-                <p>About The Shop</p>
-                <h2>Watch Our Story</h2>
+            
+          </div>
+        </header>
+        <div class="header-second-block">
+          <div class="row girl-block">
+            <div class="col header-second">
+              <div class="d-flex flex-column justify-content-between ">
+                <span>Join Us</span>
+                <h1>
+                  25K+ STUDENTS TRUST US
+                </h1>
                 <p>
-                    There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.
+                  Every day brings with it a fresh set of learning possibilities.
                 </p>
-                <div class="btn-play">
-                    <img src="./IMG/play.png">
-                </div>
+              </div>
+              <div class="two-btn">
+                <a href="" class="btn text">Get Quote Now</a>
+                <a href="" class="btn two-text">Learn More</a>
+              </div>
             </div>
+            <div class="col header-second">
+              <div class="girl-img"></div>
+            </div>
+          </div>
         </div>
-
-        <div class="trd-content">
-            <div class="center-text">
-                <span>Made for Webflow</span>
-                <h2>Simple & Colorful Ecommerce Template for Your Business</h2>
+        <div class="header-third-block justify-content-center">
+          <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-between card-items-list">
+            <div class="col card-item">
+              <div class="card-wrapper">
+                <div class="red-cyrcle">
+                  <img src="./IMG/icon cool-icon-n8.svg">
+                </div>
+                <h3>Expert instruction</h3>
+                <p class="main-text">The gradual accumulation of 
+                  information about atomic and 
+                  small-scale behaviour
+                </p>
+              </div>  
             </div>
-            <div class="main-text">
-                <div class="right-text">
-                    <span>
-                        Available for FREE!
-                    </span>
-                    <div class="green-line"></div>
-                    <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy</p>
-                    <button>
-                        <a href="#">GET IT NOW!</a>
-                    </button>
+            <div class="col card-item">
+              <div class="card-wrapper">
+                <div class="red-cyrcle">
+                  <img src="./IMG/009-backpack-1.png">
                 </div>
-                <div>
-                    <img src="./IMG/children.png">
-                </div>
+                <h3>Training Courses</h3>
+                <p class="main-text">The gradual accumulation of 
+                  information about atomic and 
+                  small-scale behaviour
+                </p>
+              </div>
             </div>
-            <div class="border">
-                <div class="right-bd">
-                    <div class="btn-telegram">
-                        <img src="./IMG/telegram.png">
-                    </div>
-                    <div class="disc-text"> 
-                        <p>
-                            Subscribe to our newsletter & get 
-                            <span>
-                                10% discount!
-                            </span>
-                        </p>
-                    </div>
+            <div class="col card-item">
+              <div class="card-wrapper">
+                <div class="red-cyrcle">
+                  <img src="./IMG/icon cool-icon-n13.svg">
                 </div>
-                <div class="left-bd">
-                    <form>
-                        <input type="text">
-                    </form>
-                    <button></button>
-                </div>
+                <h3>Expert instruction</h3>
+                <p class="main-text">The gradual accumulation of 
+                  information about atomic and 
+                  small-scale behaviour
+                </p>
+              </div>
             </div>
-            <div class="end-content">
-                <div class="center-text">
-                    <span>@ElasticThemes</span>
-                    <h2>We're on Instagram!</h2>
-                </div>
-                <div class="end-pic"> 
-                    <img src="./IMG/1.png">
-                    <img src="./IMG/2.png">
-                    <img src="./IMG/3.png">
-                    <img src="./IMG/4.png">
-                    <img src="./IMG/5.png">
-                    <img src="./IMG/6.png">
-                </div>
-                <button>
-                    <a href="#">See More Photos</a>
-                </button>
-            </div>
+            
+          </div>
         </div>
-        
+      </div>
+          
     </div>
-    
-    <footer class="footer">
-        <div class="footer-bg">
-            <div class="footer-center">
-                <div class="f-logo">
-                    <a href="index.html">ToyStore</a>
+    <div class="next-block-bg">
+      <div class="container second-block">
+        <div class="stars-block">
+          <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+            <div class="col">
+              <h2>
+                15K
+              </h2>
+              <p class="p-text">
+                Happy Customers
+              </p>
+            </div>
+            <div class="col">
+              <h2>
+                150K
+              </h2>
+              <p class="p-text">
+                Monthly Visitors
+              </p>
+            </div>
+            <div class="col">
+              <h2>
+                15
+              </h2>
+              <p class="p-text">
+                Countries  Worldwide
+              </p>
+            </div>
+            <div class="col">
+              <h2>
+                100+
+              </h2>
+              <p class="p-text">
+                Top Partners
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clients-second-block">
+          <div class="row d-flex align-items-center client-wrapper">
+            <div class="col-6">
+              <div class="d-flex flex-column justify-content-between">
+                <h3 class="main-title line">
+                  Every Client Matters
+                </h3>
+                <p class="main-text second">
+                  Problems trying to resolve the conflict between 
+                  the two major realms of Classical physics: 
+                  Newtonian mechanics 
+                </p>
+                <a href="" class="a-text">
+                  Learn More
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 header-second">
+              <div class="boy-img"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pink-block-bg">
+      <div class="container pink-block">
+        <div class="section client-block">
+          <div class="row">
+            <div class="col-6 client-block-title">
+              <span class="span-text">
+                Practice Advice
+              </span>
+              <h3 class="main-title title">
+                Our Experts Teacher
+              </h3>
+              <p class="main-text">
+                Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: Newtonian mechanics 
+              </p>
+            </div>
+          </div> 
+        </div>
+        <div class="teacher-lists">
+          <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-between teacher-lists-wrapper">
+            <div class="col product-inner bg-white">
+              <div class="product-wrap">
+                <img src="./IMG/1.png">
+                <span class="sale-icon">
+                  Sale
+                </span>
+                <div class="actions">
+                  <a href="">
+                    <img src="./IMG/heart.svg">
+                  </a>
+                  <a href="">
+                    <img src="./IMG/cart.svg">
+                  </a>
+                  <a href="">
+                    <img src="./IMG/eye-fill.svg">
+                  </a>
                 </div>
-                <div class="footer-nav">
-                    <a href="#">Home</a>
-                    <a href="#">Catalog</a>
-                    <a href="#">Delivery</a>
-                    <a href="#">About</a>
-                    <a href="#">Contacts</a>
+              </div>
+              <div class="product-info">
+                <div class="d-flex justify-content-between">
+                  <span class="span-text">
+                    Training Courses	
+                  </span>
+                  <div class="black-b d-inline-block p-1">
+                    <div class="d-flex">
+                      <img src="./IMG/Vector.png">
+                      <p class="pnt">4.9</p>
+                    </div>                   
+                  </div>
                 </div>
                 <div>
-                    <ul class="social-list">
-                        <li><a href="#"><img src="./IMG/twitter.png"></a>  </li>             
-                        <li><a href="#"><img src="./IMG/facebook.png"></a></li>               
-                        <li><a href="#"><img src="./IMG/ins.png"></a></li>               
-                        <li><a href="#"><img src="./IMG/icon.png"></a></li>               
-                        <li><a href="#"><img src="./IMG/youtube.png"></a></li>   
-                    </ul>           
+                  <p class="p-text pad">
+                    Get Quality Education
+                  </p>
+                  <p class="main-text point pad">
+                    We focus on ergonomics and meeting 
+                    you where you work. It's only a 
+                    keystroke away.
+                  </p>
+                  <div class="sales-text d-flex pad"> 
+                    <a href="#" class="sales-text"><i class="bi bi-download"></i></a>
+                    <p>15 Sales</p>
+                  </div>
+                  <div class="price-text pad d-flex">
+                    <p>$16.48</p>
+                    <span>$6.48</span>
+                  </div>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn a-text brd">
+                      Learn More
+                      <i class="bi bi-chevron-right"></i>
+                    </a>
+                  </div>                    
                 </div>
+              </div>  
             </div>
-            <div class="end-footer">
-                <p>Created with love by Elastic Themes</p>
-                <ul>
-                    <p class="power">Powered by</p> 
-                    <li>Webflow</li>
-                    <li class="mark">Style Guide</li>
-                    <li class="mark">Licensing</li>
-                </ul>
+            <div class="col product-inner bg-white">
+              <div class="product-wrap">
+                <img src="./IMG/2.png">
+                <span class="sale-icon">
+                  Sale
+                </span>
+                <div class="actions">
+                  <a href="" class="white-cyrcle">
+                    <img src="./IMG/heart.svg">
+                  </a>
+                  <a href="" class="white-cyrcle">
+                    <img src="./IMG/cart.svg">
+                  </a>
+                  <a href="" class="white-cyrcle">
+                    <img src="./IMG/eye-fill.svg">
+                  </a>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="d-flex justify-content-between">
+                  <span class="span-text">
+                    2,769 online courses	
+                  </span>
+                  <div class="black-b d-inline-block p-1">
+                    <div class="d-flex">
+                      <img src="./IMG/Vector.png">
+                      <p class="pnt">4.9</p>
+                    </div>                   
+                  </div>
+                </div>
+                <div>
+                  <p class="p-text pad">
+                    Our Popular Courses
+                  </p>
+                  <p class="main-text point pad">
+                    We focus on ergonomics and meeting 
+                    you where you work. It's only a 
+                    keystroke away.
+                  </p>
+                  <div class="sales-text d-flex pad"> 
+                    <a href="#" class="sales-text"><i class="bi bi-download"></i></a>
+                    <p>15 Sales</p>
+                  </div>
+                  <div class="price-text pad d-flex">
+                    <p>$16.48</p>
+                    <span>$6.48</span>
+                  </div>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn a-text brd">
+                      Learn More
+                      <i class="bi bi-chevron-right"></i>
+                    </a>
+                  </div>                    
+                </div>
+              </div>  
             </div>
+            <div class="col product-inner bg-white">
+              <div class="product-wrap">
+                <img src="./IMG/3.png">
+                <span class="sale-icon">
+                  Sale
+                </span>
+                <div class="actions">
+                  <a href="" class="white-cyrcle">
+                    <img src="./IMG/heart.svg">
+                  </a>
+                  <a href="" class="white-cyrcle">
+                    <img src="./IMG/cart.svg">
+                  </a>
+                  <a href="" class="white-cyrcle">
+                    <img src="./IMG/eye-fill.svg">
+                  </a>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="d-flex justify-content-between">
+                  <span class="span-text">
+                    Expert instruction
+                  </span>
+                  <div class="black-b d-inline-block p-1">
+                    <div class="d-flex">
+                      <img src="./IMG/Vector.png">
+                      <p class="pnt">4.9</p>
+                    </div>                   
+                  </div>
+                </div>
+                <div>
+                  <p class="p-text pad">
+                    Most Popular Courses
+                  </p>
+                  <p class="main-text point pad">
+                    We focus on ergonomics and meeting 
+                    you where you work. It's only a 
+                    keystroke away.
+                  </p>
+                  <div class="sales-text d-flex pad"> 
+                    <a href="#" class="sales-text"><i class="bi bi-download"></i></a>
+                    <p>15 Sales</p>
+                  </div>
+                  <div class="price-text pad d-flex">
+                    <p>$16.48</p>
+                    <span>$6.48</span>
+                  </div>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn a-text brd">
+                      Learn More
+                      <i class="bi bi-chevron-right"></i>
+                    </a>
+                  </div>                    
+                </div>
+              </div>  
+            </div>
+          </div>
         </div>
-        
+      </div>
+    </div>
+    <div class="next-block-bg">
+      <div class="container third-block">
+        <div class="section client-block">
+          <div class="row">
+            <div class="col-6 client-block-title">
+              <span class="span-text">
+                Practice Advice
+              </span>
+              <h3 class="main-title title">
+                Every Client Matters
+              </h3>
+              <p class="main-text">
+                Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: Newtonian mechanics 
+              </p>
+            </div>
+          </div>
+        </div>  
+        <div class="client-list">
+          <div class="row row-cols-1 row-cols-md-4 g-4  justify-content-between client-list-wrapper">
+            <div class="col align-items-center justify-content-center review-items">
+              <div class="review-box">
+                <div class="review-center text-center">
+                  <div class="reviews">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="client-comment">
+                    <p>Slate helps you see 
+                      how many more days 
+                      you need to work to 
+                      reach your financial 
+                      goal for the month 
+                      and year.
+                    </p>
+                  </div>
+                </div>  
+                <div class="profile d-flex align-items-center justify-content-center">
+                  <div class="profile-img">
+                      <img src="./IMG/testimonial-user-cover-202.png" />
+                  </div>
+                  <div class="name-user d-flex flex-column">
+                    <strong>Regina Miles</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col align-items-center justify-content-center review-items">
+              <div class="review-box">
+                <div class="review-center text-center">
+                  <div class="reviews">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="client-comment">
+                    <p>Slate helps you see 
+                      how many more days 
+                      you need to work to 
+                      reach your financial 
+                      goal for the month 
+                      and year.
+                    </p>
+                  </div>
+                </div>  
+                <div class="profile d-flex align-items-center justify-content-center">
+                  <div class="profile-img">
+                      <img src="./IMG/testimonial-user-cover-99.png"/>
+                  </div>
+                  <div class="name-user d-flex flex-column">
+                    <strong>Regina Miles</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col align-items-center justify-content-center review-items">
+              <div class="review-box">
+                <div class="review-center text-center">
+                  <div class="reviews">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="client-comment">
+                    <p>Slate helps you see 
+                      how many more days 
+                      you need to work to 
+                      reach your financial 
+                      goal for the month 
+                      and year.
+                    </p>
+                  </div>
+                </div>  
+                <div class="profile d-flex align-items-center justify-content-center">
+                  <div class="profile-img">
+                      <img src="./IMG/testimonial-user-cover-86.png"/>
+                  </div>
+                  <div class="name-user d-flex flex-column">
+                    <strong>Regina Miles</strong>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="next-block-bg">
+      <div class="container third-block">
+        <div class="section client-block">
+          <div class="row">
+            <div class="col-6 client-block-title">
+              <span class="span-text">
+                Team
+              </span>
+              <h3 class="main-title title">
+                Our Popular Courses
+              </h3>
+              <p class="main-text">
+                Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: Newtonian mechanics  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="teacher">
+          <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-between">
+            <div class="col">
+              <div class="card h-100 teach-list">
+                <img src="./IMG/user-cover-1.png" alt="person">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="t-name">Julian Jameson</h5>
+                  <p class="proff">Profession</p>
+                  <div class="icon-teach d-flex justify-content-evenly">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 teach-list">
+                <img src="./IMG/fixed-height sec-.png" alt="person">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="t-name">Julian Jameson</h5>
+                  <p class="proff">Profession</p>
+                  <div class="icon-teach d-flex justify-content-evenly">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 teach-list">
+                <img src="./IMG/user-cover-3.png" alt="person">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="t-name">Julian Jameson</h5>
+                  <p class="proff">Profession</p>
+                  <div class="icon-teach d-flex justify-content-evenly">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 teach-list">
+                <img src="./IMG/fixed-height sec,1.png" alt="person">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="t-name">Julian Jameson</h5>
+                  <p class="proff">Profession</p>
+                  <div class="icon-teach d-flex justify-content-evenly">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div> 
+    <div class="next-block-bg">
+      <div class="container third-block">
+        <div class="section d-flex flex-column text-center client-block">
+          <span class="span-text">
+            Newsletter
+          </span>
+          <h3 class="main-title title">
+            Watch our Courses
+          </h3>
+          <p class="main-text last-par">
+            Problems trying to resolve the conflict between 
+            the two major realms of Classical physics: Newtonian mechanics 
+          </p>
+        </div>
+        <div class="last-s"> 
+          <form class="subscribe d-flex justify-content-center">
+            <label>
+              <input type="email" placeholder="Your Email">
+            </label>
+            <button>Subscribe</button>
+          </form>
+        </div> 
+      </div>
+    </div>
+    <footer class="container footer">
+      <div class="footer-section">
+        <div class="row row-cols-1 row-cols-md-5 g-5 d-flex justify-content-between footer-wrapper">
+          <div class="col section-list d-flex flex-column">
+            <h3 class="p-text">
+              Company Info
+            </h3>
+            <div class="d-flex flex-column justify-content-between">
+              <a href="#" class="footer-item">About Us</a> 
+              <a href="#" class="footer-item">Carrier</a>
+              <a href="#" class="footer-item">We are hiring</a>
+              <a href="#" class="footer-item">Blog</a>
+            </div>
+          </div>
+          <div class="col section-list d-flex flex-column">
+            <h3 class="p-text">
+              Legal
+            </h3>
+            <div class="d-flex flex-column justify-content-between">
+              <a href="#" class="footer-item">About Us</a> 
+              <a href="#" class="footer-item">Carrier</a>
+              <a href="#" class="footer-item">We are hiring</a>
+              <a href="#" class="footer-item">Blog</a>
+            </div>
+          </div>
+          <div class="col section-list d-flex flex-column">
+            <h3 class="p-text">
+              Features
+            </h3>
+            <div class="d-flex flex-column justify-content-between">
+              <a href="#" class="footer-item">Business Marketing</a> 
+              <a href="#" class="footer-item">User Analytic</a>
+              <a href="#" class="footer-item">Live Chat</a>
+              <a href="#" class="footer-item">Unlimited Support</a>
+            </div>
+          </div>
+          <div class="col section-list d-flex flex-column">
+            <h3 class="p-text">
+              Resources
+            </h3>
+            <div class="d-flex flex-column justify-content-between">
+              <a href="#" class="footer-item">IOS & Android</a> 
+              <a href="#" class="footer-item">Watch a Demo</a>
+              <a href="#" class="footer-item">Customers</a>
+              <a href="#" class="footer-item">API</a>
+            </div>
+          </div>
+          <div class="col section-list d-flex flex-column">
+            <h3 class="p-text">
+              Get In Touch
+            </h3>
+            <div class="d-flex flex-column justify-content-between">
+              <div class="lastloc-tel d-flex footer-item"> 
+                <a href="tel:4805550103">(480) 555-0103</a>
+              </div>
+              <div class="lastloc-adress d-flex footer-item">
+                <a href="#">4517 Washington Ave. Manchester, 
+                  Kentucky 39495
+                </a>
+              </div>
+              <div class="lastloc-mail d-flex footer-item">
+                <a href="mailto:debra.holt@example.com">debra.holt@example.com</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
     </footer>
+    <div class="under-footer">
+      <div class="container d-flex justify-content-between align-items-center footer-info">
+        <p>Made With Love By Figmaland All Right Reserved </p>
+        <div class="icon-teach d-flex">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+      </div>
+    </div> 
+  </div>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="application/javascript" src="./JS/scripts.js"></script>
 </body>
 </html>
